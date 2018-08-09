@@ -33,5 +33,7 @@ async def on_message(message):
 	if message.content.startswith('http'):
 		chat = random.choice(['? 무슨 사이트?', '조심해! 바이러스 일수도 있어!', '무슨 사이트지 궁금해지네 쓸데없이.. 쳇..', '무슨 사이트??', '수상한 링크가 피해!!', '평범한 URL 이군!', '저 링크를 보며 드는 생각인데.. 확실히 딮웹은 아닌것 같아', '어쩌면 몰라 저 사이트에서 엄청난 돈을 줄지도..', '저 사이트는 장르가 무엇일꼬'])
 		await client.send_message(message.channel, chat)
+	if message.content.startswith('현솔아 서버개발'):
+		await client.send_message(message.channel, '[ HMH Server ] \n\n 서버: 양호 \n 현재 개발중: 카페')
 		
 client.run(os.getenv('TOKEN'))
