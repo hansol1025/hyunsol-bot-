@@ -1,2 +1,2 @@
-# hyunsol-bot-
-현솔봇
+# little-pplay-bot
+BY. 현솔
