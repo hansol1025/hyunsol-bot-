@@ -1,1 +1,1 @@
-worker: python Hyunsolbot.py
+worker: python Hyunbot.py
